@@ -1,5 +1,7 @@
 package com.serenitydojo.fruitmarket;
 
+import java.util.List;
+
 public class ShoppingCartItem {
     private Fruit fruit;
     private Double quantity;
@@ -22,4 +24,7 @@ public class ShoppingCartItem {
     public Double getTotalCost() {
         return totalCost;
     }
+
+
+
 }
